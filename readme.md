@@ -206,3 +206,7 @@ For example, with the TCP transport the socket has a keep alive option:
 ```cpp
 bool keep_alive = nng::tcp::get_opt_keep_alive( socket );
 ```
+
+### demo compilation parameters
+
+`g++ server.cpp -std=c++17 -lnng -lpthread -o nng`
